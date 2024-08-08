@@ -1,0 +1,6 @@
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:52:5:tflm_io_write	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:67:12:ai_boostrap	144	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:139:5:acquire_and_process_data	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:145:5:post_process	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:205:6:MX_X_CUBE_AI_Init	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Utilities/X-CUBE-AI/App/app_x-cube-ai.c:220:6:MX_X_CUBE_AI_Process	96	static

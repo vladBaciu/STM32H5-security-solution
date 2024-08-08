@@ -1,0 +1,11 @@
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:56:13:FW_APP_FWU_PrintMenu	8	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:88:6:FW_APP_FWU_Run	24	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:231:13:print_image_info	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:261:13:FW_APP_FWU_DownloadImage	144	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:298:13:FW_APP_FWU_InstallImage	160	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:332:26:FW_APP_FWU_DownloadNewFirmware	24	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:390:19:Ymodem_HeaderPktRxCpltCallback	24	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:417:19:Ymodem_DataPktRxCpltCallback	40	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:475:13:FW_APP_FWU_QueryAll	256	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:537:13:FW_APP_FWU_Validation	144	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/fwu.c:562:13:FW_APP_FWU_Abort	144	static

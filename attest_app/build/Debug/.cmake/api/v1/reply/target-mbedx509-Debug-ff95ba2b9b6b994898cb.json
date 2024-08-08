@@ -1,0 +1,237 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Middlewares/mbed-crypto/library/libmbedx509.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"Middlewares/mbed-crypto/library/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -Wmissing-declarations -Wmissing-prototypes -O0 -g3 -std=gnu11"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/mbed-crypto/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/mbed-crypto/include/mbedtls"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/mbed-crypto/include/psa"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/mbed-crypto/library"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "mbedcrypto::@83c8493b2991b99b979a"
+		}
+	],
+	"id" : "mbedx509::@83c8493b2991b99b979a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/ml_model_attestation"
+		}
+	},
+	"name" : "mbedx509",
+	"nameOnDisk" : "libmbedx509.a",
+	"paths" : 
+	{
+		"build" : "Middlewares/mbed-crypto/library",
+		"source" : "Middlewares/mbed-crypto/library"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/certs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/pkcs11.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509_create.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509_crl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509_csr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509write_crt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/mbed-crypto/library/x509write_csr.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

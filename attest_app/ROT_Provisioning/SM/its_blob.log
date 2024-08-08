@@ -1,0 +1,26 @@
+ 
+ITSbuilder v:1.1.2
+	version:	0x0001
+	data area:	1
+	keys area:	2
+	DATA	Id:	0x0000000000000040
+		owner:	0xFFFFFFFF
+		flag:	WRITE_ONCE
+		value length :	33
+		data :	0x02382b0f53588abcf98c5fcefd2c1b4641716b58876d05534db72bc89bcafa944b
+	SECP_R1 EDCSA KEY PAIR key -256b
+		Id:	0x00000045
+		owner:	0xFFFFFFFF
+		persistence:	PERSISTENT, location:	0x000000000000
+		usage(s):	SIGN, SIGN_HASH
+		argument(s):	ANY (0x60006ff)
+		data length:	32
+		value:	0x5f9ab6af332aea13fe2e3eba060746b225c2fdc1ac75d236d0a59a6553068b4e
+	SECP_K1 EDCSA KEY PAIR key -256b
+		Id:	0x00000046
+		owner:	0xFFFFFFFF
+		persistence:	PERSISTENT, location:	0x000000000000
+		usage(s):	SIGN, SIGN_HASH
+		argument(s):	ANY (0x60006ff)
+		data length:	32
+		value:	0x723b8db9032b7441c7a4dd82689a47672ba81f40679cbb44783022c15b04a5ec

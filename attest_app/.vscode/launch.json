@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32 Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/Debug/ml_model_attestation.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "stlink",
+            "device": "STM32H573",
+            "interface": "swd",
+            "serialNumber": "",
+            "svdFile": "${workspaceFolder}/STM32H573.svd",
+            "v1": false,
+            "showDevDebugOutput" : "both",
+            "serverArgs": ["-m", "0"],
+            "gdbPath": "e:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/arm-none-eabi-gdb.exe"
+        }
+    ]
+}

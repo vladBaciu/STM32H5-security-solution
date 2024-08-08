@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "psa_client_pv.h": "c",
+        "stm32h5xx_hal.h": "c",
+        "stm32h5xx_hal_conf.h": "c",
+        "sha256.h": "c",
+        "timing.h": "c",
+        "errno.h": "c",
+        "stdio.h": "c",
+        "cryp.h": "c",
+        "crypto_tests_common.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "span": "c",
+        "internal_trusted_storage.h": "c",
+        "its.h": "c",
+        "vector": "c",
+        "xstring": "c",
+        "xutility": "c"
+    }
+}

@@ -1,0 +1,153 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Middlewares/mbed-crypto/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls",
+			"paths" : 
+			[
+				"Middlewares/mbed-crypto/include/mbedtls/aes.h",
+				"Middlewares/mbed-crypto/include/mbedtls/aesni.h",
+				"Middlewares/mbed-crypto/include/mbedtls/arc4.h",
+				"Middlewares/mbed-crypto/include/mbedtls/aria.h",
+				"Middlewares/mbed-crypto/include/mbedtls/asn1.h",
+				"Middlewares/mbed-crypto/include/mbedtls/asn1write.h",
+				"Middlewares/mbed-crypto/include/mbedtls/base64.h",
+				"Middlewares/mbed-crypto/include/mbedtls/bignum.h",
+				"Middlewares/mbed-crypto/include/mbedtls/blowfish.h",
+				"Middlewares/mbed-crypto/include/mbedtls/bn_mul.h",
+				"Middlewares/mbed-crypto/include/mbedtls/camellia.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ccm.h",
+				"Middlewares/mbed-crypto/include/mbedtls/certs.h",
+				"Middlewares/mbed-crypto/include/mbedtls/chacha20.h",
+				"Middlewares/mbed-crypto/include/mbedtls/chachapoly.h",
+				"Middlewares/mbed-crypto/include/mbedtls/check_config.h",
+				"Middlewares/mbed-crypto/include/mbedtls/cipher.h",
+				"Middlewares/mbed-crypto/include/mbedtls/cipher_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/cmac.h",
+				"Middlewares/mbed-crypto/include/mbedtls/compat-1.3.h",
+				"Middlewares/mbed-crypto/include/mbedtls/config.h",
+				"Middlewares/mbed-crypto/include/mbedtls/config_psa.h",
+				"Middlewares/mbed-crypto/include/mbedtls/constant_time.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ctr_drbg.h",
+				"Middlewares/mbed-crypto/include/mbedtls/debug.h",
+				"Middlewares/mbed-crypto/include/mbedtls/des.h",
+				"Middlewares/mbed-crypto/include/mbedtls/dhm.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ecdh.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ecdsa.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ecjpake.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ecp.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ecp_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/entropy.h",
+				"Middlewares/mbed-crypto/include/mbedtls/entropy_poll.h",
+				"Middlewares/mbed-crypto/include/mbedtls/error.h",
+				"Middlewares/mbed-crypto/include/mbedtls/gcm.h",
+				"Middlewares/mbed-crypto/include/mbedtls/havege.h",
+				"Middlewares/mbed-crypto/include/mbedtls/hkdf.h",
+				"Middlewares/mbed-crypto/include/mbedtls/hmac_drbg.h",
+				"Middlewares/mbed-crypto/include/mbedtls/md.h",
+				"Middlewares/mbed-crypto/include/mbedtls/md2.h",
+				"Middlewares/mbed-crypto/include/mbedtls/md4.h",
+				"Middlewares/mbed-crypto/include/mbedtls/md5.h",
+				"Middlewares/mbed-crypto/include/mbedtls/md_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/memory_buffer_alloc.h",
+				"Middlewares/mbed-crypto/include/mbedtls/net.h",
+				"Middlewares/mbed-crypto/include/mbedtls/net_sockets.h",
+				"Middlewares/mbed-crypto/include/mbedtls/nist_kw.h",
+				"Middlewares/mbed-crypto/include/mbedtls/oid.h",
+				"Middlewares/mbed-crypto/include/mbedtls/padlock.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pem.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pk.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pk_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pkcs11.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pkcs12.h",
+				"Middlewares/mbed-crypto/include/mbedtls/pkcs5.h",
+				"Middlewares/mbed-crypto/include/mbedtls/platform.h",
+				"Middlewares/mbed-crypto/include/mbedtls/platform_time.h",
+				"Middlewares/mbed-crypto/include/mbedtls/platform_util.h",
+				"Middlewares/mbed-crypto/include/mbedtls/poly1305.h",
+				"Middlewares/mbed-crypto/include/mbedtls/psa_util.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ripemd160.h",
+				"Middlewares/mbed-crypto/include/mbedtls/rsa.h",
+				"Middlewares/mbed-crypto/include/mbedtls/rsa_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/sha1.h",
+				"Middlewares/mbed-crypto/include/mbedtls/sha256.h",
+				"Middlewares/mbed-crypto/include/mbedtls/sha512.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl_cache.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl_ciphersuites.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl_cookie.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl_internal.h",
+				"Middlewares/mbed-crypto/include/mbedtls/ssl_ticket.h",
+				"Middlewares/mbed-crypto/include/mbedtls/threading.h",
+				"Middlewares/mbed-crypto/include/mbedtls/timing.h",
+				"Middlewares/mbed-crypto/include/mbedtls/version.h",
+				"Middlewares/mbed-crypto/include/mbedtls/x509.h",
+				"Middlewares/mbed-crypto/include/mbedtls/x509_crl.h",
+				"Middlewares/mbed-crypto/include/mbedtls/x509_crt.h",
+				"Middlewares/mbed-crypto/include/mbedtls/x509_csr.h",
+				"Middlewares/mbed-crypto/include/mbedtls/xtea.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/psa",
+			"paths" : 
+			[
+				"Middlewares/mbed-crypto/include/psa/crypto.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_builtin_composites.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_builtin_primitives.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_compat.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_config.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_driver_common.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_driver_contexts_composites.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_driver_contexts_primitives.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_extra.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_platform.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_se_driver.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_sizes.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_struct.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_types.h",
+				"Middlewares/mbed-crypto/include/psa/crypto_values.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Middlewares/mbed-crypto/include",
+		"source" : "Middlewares/mbed-crypto/include"
+	}
+}

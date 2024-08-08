@@ -1,0 +1,279 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/3.28.1/CMakeSystem.cmake"
+		},
+		{
+			"path" : "cmake/gcc-arm-none-eabi.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/3.28.1/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/DartConfiguration.tcl"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/include/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/3rdparty/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/library/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/aes/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/fuzz/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/hash/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/pkey/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/psa/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/random/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/ssl/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/test/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/util/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/programs/x509/CMakeLists.txt"
+		},
+		{
+			"path" : "Middlewares/mbed-crypto/tests/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug",
+		"source" : "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

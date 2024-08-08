@@ -1,0 +1,17 @@
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:53:43:psa_hash_operation_init	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:65:42:psa_mac_operation_init	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:77:45:psa_cipher_operation_init	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:122:50:psa_key_attributes_init	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:150:20:psa_set_key_lifetime	2
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:166:20:psa_set_key_usage_flags	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:178:20:psa_set_key_algorithm	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:190:20:psa_set_key_type	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:196:30:psa_get_key_type	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/inc/psa/crypto_struct.h:211:22:psa_get_key_bits	1
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:20:6:psa_cipher_padded_modes_test	39
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:391:6:psa_cipher_test	48
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:821:6:psa_hash_test	34
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:954:6:psa_mac_test	30
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:1132:6:psa_aead_test	20
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:1366:6:psa_asymmetric_encryption_test	13
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/SM/crypto_tests_common.c:1494:6:psa_sign_verify_message_test	5

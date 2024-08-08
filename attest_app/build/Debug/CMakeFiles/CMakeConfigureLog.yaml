@@ -1,0 +1,551 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      (.text.exit+0x28): undefined reference to `_exit'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      (.text._close_r+0x18): undefined reference to `_close'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      (.text._lseek_r+0x20): undefined reference to `_lseek'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      (.text._read_r+0x20): undefined reference to `_read'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      (.text._write_r+0x20): undefined reference to `_write'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      (.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/arm-none-eabi-gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-exit.o): in function `exit':
+      (.text.exit+0x28): undefined reference to `_exit'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-closer.o): in function `_close_r':
+      (.text._close_r+0x18): undefined reference to `_close'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      (.text._lseek_r+0x20): undefined reference to `_lseek'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-readr.o): in function `_read_r':
+      (.text._read_r+0x20): undefined reference to `_read'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-writer.o): in function `_write_r':
+      (.text._write_r+0x20): undefined reference to `_write'
+      E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      (.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/arm-none-eabi-g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1ow07z"
+      binary: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1ow07z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1ow07z'
+        
+        Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_2f26f
+        [1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe   -std=gnu11   -v -o CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj -c E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw --libexecdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 12.3.rel1.20240306-1730' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) 
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/'
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2f26f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -std=gnu11 -version -o C:\\Users\\baciu\\AppData\\Local\\Temp\\ccKUKWJb.s
+        GNU C11 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib/gcc/arm-none-eabi/12.3.1/../../../../include"
+        ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C11 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6b41f550ce349ababa4831027f14dd31
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/'
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj C:\\Users\\baciu\\AppData\\Local\\Temp\\ccKUKWJb.s
+        GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627
+        COMPILER_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_2f26f.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_2f26f.a  CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_2f26f.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+        implicit include dirs: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-1ow07z']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_2f26f]
+        ignore line: [[1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe   -std=gnu11   -v -o CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj -c E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw --libexecdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 12.3.rel1.20240306-1730' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/']
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2f26f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -std=gnu11 -version -o C:\\Users\\baciu\\AppData\\Local\\Temp\\ccKUKWJb.s]
+        ignore line: [GNU C11 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib/gcc/arm-none-eabi/12.3.1/../../../../include"]
+        ignore line: [ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6b41f550ce349ababa4831027f14dd31]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/']
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj C:\\Users\\baciu\\AppData\\Local\\Temp\\ccKUKWJb.s]
+        ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627]
+        ignore line: [COMPILER_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../arm-none-eabi/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_2f26f.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_2f26f.a  CMakeFiles/cmTC_2f26f.dir/CMakeCCompilerABI.c.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_2f26f.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-9bg0xa"
+      binary: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-9bg0xa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-9bg0xa'
+        
+        Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_f57ae
+        [1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-g++.exe   -std=gnu++20   -v -o CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj -c E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw --libexecdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 12.3.rel1.20240306-1730' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) 
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/'
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f57ae.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -std=gnu++20 -version -o C:\\Users\\baciu\\AppData\\Local\\Temp\\cclJt1U7.s
+        GNU C++20 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib/gcc/arm-none-eabi/12.3.1/../../../../include"
+        ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+         E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++20 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 0f8d807569af194104fab848532595cb
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/'
+         E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\baciu\\AppData\\Local\\Temp\\cclJt1U7.s
+        GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627
+        COMPILER_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../arm-none-eabi/lib/\x0d
+        COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_f57ae.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_f57ae.a  CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_f57ae.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+          add: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/backward]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/backward]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        collapse include dir [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include] ==> [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+        implicit include dirs: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/arm-none-eabi;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include/c++/12.3.1/backward;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed;E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-9bg0xa']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_f57ae]
+        ignore line: [[1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-g++.exe   -std=gnu++20   -v -o CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj -c E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-w64-mingw32 --target=arm-none-eabi --prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw --libexecdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib --infodir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/arm-none-eabi --with-libiconv-prefix=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-gmp=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpfr=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-mpc=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-isl=/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for STM32 12.3.rel1.20240306-1730' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240306-1730) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/']
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f57ae.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -std=gnu++20 -version -o C:\\Users\\baciu\\AppData\\Local\\Temp\\cclJt1U7.s]
+        ignore line: [GNU C++20 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/build/gnu-tools-for-stm32_12.3.rel1.20240306-1730/install-mingw/lib/gcc/arm-none-eabi/12.3.1/../../../../include"]
+        ignore line: [ignoring nonexistent directory "E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        ignore line: [ E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/include-fixed]
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/lib/gcc/../../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++20 (GNU Tools for STM32 12.3.rel1.20240306-1730) version 12.3.1 20230626 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 0f8d807569af194104fab848532595cb]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/']
+        ignore line: [ E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\baciu\\AppData\\Local\\Temp\\cclJt1U7.s]
+        ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240306-1730) 2.40.0.20230627]
+        ignore line: [COMPILER_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [E:/Installs/stmcubeide/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32/tools/bin/../arm-none-eabi/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++20' '-v' '-o' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_f57ae.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_f57ae.a  CMakeFiles/cmTC_f57ae.dir/CMakeCXXCompilerABI.cpp.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_f57ae.a && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:17 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GNU Tools for STM32 12.3.rel1.20240306-1730) 12.3.1 20230626
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "Middlewares/mbed-crypto/CMakeLists.txt:196 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+    directories:
+      source: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-i8y400"
+      binary: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-i8y400"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
+    buildResult:
+      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-i8y400'
+        
+        Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_7b03f
+        [1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_7b03f.dir/src.c.obj -c D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-i8y400/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_7b03f.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_7b03f.a  CMakeFiles/cmTC_7b03f.dir/src.c.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_7b03f.a && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "Middlewares/mbed-crypto/programs/ssl/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky"
+      binary: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky'
+        
+        Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_2dd78
+        [1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -o CMakeFiles/cmTC_2dd78.dir/src.c.obj -c D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c
+        FAILED: CMakeFiles/cmTC_2dd78.dir/src.c.obj 
+        E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -o CMakeFiles/cmTC_2dd78.dir/src.c.obj -c D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c: In function 'main':
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c:11:3: error: implicit declaration of function 'pthread_create' [-Werror=implicit-function-declaration]
+           11 |   pthread_create(&thread, NULL, test_func, NULL);
+              |   ^~~~~~~~~~~~~~
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c:12:3: error: implicit declaration of function 'pthread_detach' [-Werror=implicit-function-declaration]
+           12 |   pthread_detach(thread);
+              |   ^~~~~~~~~~~~~~
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c:13:3: error: implicit declaration of function 'pthread_cancel' [-Werror=implicit-function-declaration]
+           13 |   pthread_cancel(thread);
+              |   ^~~~~~~~~~~~~~
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c:14:3: error: implicit declaration of function 'pthread_join'; did you mean 'pthread_atfork'? [-Werror=implicit-function-declaration]
+           14 |   pthread_join(thread, NULL);
+              |   ^~~~~~~~~~~~
+              |   pthread_atfork
+        D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-cej8ky/src.c:16:3: error: implicit declaration of function 'pthread_exit' [-Werror=implicit-function-declaration]
+           16 |   pthread_exit(NULL);
+              |   ^~~~~~~~~~~~
+        cc1.exe: all warnings being treated as errors
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "Middlewares/mbed-crypto/programs/ssl/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-6q79rs"
+      binary: "D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-6q79rs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-6q79rs'
+        
+        Run Build Command(s): E:/Installs/stmcubeide/STM32CubeCLT_1.16.0/Ninja/bin/ninja.exe -v cmTC_ec541
+        [1/2] E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-gcc.exe   -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -Wformat-signedness -Wformat-overflow=2 -Wformat-truncation -Werror -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ec541.dir/CheckFunctionExists.c.obj -c D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/build/Debug/CMakeFiles/CMakeScratch/TryCompile-6q79rs/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\Installs\\stmcubeide\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E rm -f libcmTC_ec541.a && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ar.exe qc libcmTC_ec541.a  CMakeFiles/cmTC_ec541.dir/CheckFunctionExists.c.obj && E:\\Installs\\stmcubeide\\STM32CubeIDE_1.15.0\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32\\tools\\bin\\arm-none-eabi-ranlib.exe libcmTC_ec541.a && cd ."
+        
+      exitCode: 0
+...
