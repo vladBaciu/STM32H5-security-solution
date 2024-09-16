@@ -1,2 +1,0 @@
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/tensorflow/tensorflow/lite/micro/micro_time.cc:41:10:uint32_t tflite::ticks_per_second()	1
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/tensorflow/tensorflow/lite/micro/micro_time.cc:47:10:uint32_t tflite::GetCurrentTimeTicks()	1

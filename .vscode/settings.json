@@ -17,6 +17,10 @@
         "its.h": "c",
         "vector": "c",
         "xstring": "c",
-        "xutility": "c"
+        "xutility": "c",
+        "psa_crypto_core.h": "c",
+        "crypto.h": "c",
+        "psa_crypto_slot_management.h": "c",
+        "psa_crypto_helpers.h": "c"
     }
 }

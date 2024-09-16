@@ -1,3 +1,0 @@
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/ipc/nonsecure/src/tfm_ns_interface.c:35:16:tfm_ns_interface_dispatch	1
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/ipc/nonsecure/src/tfm_ns_interface.c:46:13:ns_ipc_seq_begin	1
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/ipc/nonsecure/src/tfm_ns_interface.c:53:13:ns_ipc_seq_end	1

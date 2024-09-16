@@ -1,4 +1,0 @@
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/src/psa_its.c:105:14:psa_its_set	72	static
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/src/psa_its.c:153:14:psa_its_get	80	static
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/src/psa_its.c:219:14:psa_its_get_info	56	static
-D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Middlewares/secure_manager_api/interface/src/psa_its.c:263:14:psa_its_remove	48	static
