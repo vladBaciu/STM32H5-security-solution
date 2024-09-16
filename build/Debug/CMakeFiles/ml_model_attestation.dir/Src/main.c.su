@@ -1,0 +1,15 @@
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:81:1:uart_putc	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:102:9:_write	32	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:169:5:main	56	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:281:6:FW_APP_MAIN_PrintMenu	8	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:295:6:FW_APP_MAIN_Run	16	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:352:13:SystemClock_Config	120	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:408:13:ML_Attestation_ComputeCurrentModelProof	240	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:465:13:ML_Attestation_Validate_Model_Proof	72	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:494:13:ML_Attestation_EcdsaSignChallange	192	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:524:13:ML_Attestation_GetDevicePublicKey	96	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:545:13:ML_Attestation_Generate_Model_Proof	96	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:561:13:ML_Attestation_Model_Attestation	72	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:593:13:MX_GPIO_Init	64	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:830:13:CACHE_Enable	8	static
+D:/PhD/Workspace/Git_phd/phd/research/embedded_security/attest_app/Src/main.c:841:13:Error_Handler	4	static
