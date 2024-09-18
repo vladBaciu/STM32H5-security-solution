@@ -1,4 +1,4 @@
-A prototype application that levereges the STM32Trust TEE secure manager solution for a simple ML model authentication scheme on IoT devices (implemented on STM32H573I-DK development kit).
+A prototype app that levereges the STM32Trust TEE secure manager solution for a simple ML model authentication scheme on IoT devices (implemented on STM32H573I-DK development kit).
 
 STM32Trust TEE secure manager kit its a ready to use solution that comes in a binary form and can be installed on STM32 products. It features support for Secure Boot, RoT, cryptography, internal storage, attestation, firmware update as defined by the Arm PSA specs.
 
